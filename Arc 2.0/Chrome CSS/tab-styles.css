@@ -126,7 +126,7 @@
     }
   }
 
-  
+
     [uidensity="compact"] tab .tab-background .tab-context-line {
       margin: auto 5px !important;
     }
@@ -138,7 +138,8 @@
 
     tab[discarded=""]:hover,
     tab[pending="true"]:hover {
-      filter: grayscale(0) !important;
+      filter: grayscale(1) !important;
+      opacity: 0.3 !important;
     }
 
     /* ------------------- Close and Reset Button Styling ------------------- */
