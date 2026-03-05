@@ -136,10 +136,16 @@
       z-index: 1000 !important;
     }
 
-    tab[discarded=""]:hover,
-    tab[pending="true"]:hover {
+    tab[discarded=""],
+    tab[pending="true"] {
       filter: grayscale(1) !important;
       opacity: 0.3 !important;
+    }
+
+    tab[discarded=""]: hover,
+    tab[pending="true"]: hover {
+      filter: grayscale(0) !important;
+      opacity: 1 !important;
     }
 
     /* ------------------- Close and Reset Button Styling ------------------- */
