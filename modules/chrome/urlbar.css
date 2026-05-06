@@ -11,10 +11,10 @@
   display: none !important;
 }
 
-/* Center text in URL bar */
+/* Left-Align text in URL bar */
 #urlbar .urlbar-input,
 .urlbar-input-container {
-  text-align: center !important;
+  text-align: left !important;
   position: relative;
 }
 
