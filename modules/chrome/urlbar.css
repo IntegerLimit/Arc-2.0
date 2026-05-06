@@ -1094,13 +1094,6 @@
   display: none !important;
 }
 
-/* Center text in URL bar */
-#urlbar .urlbar-input,
-.urlbar-input-container {
-  text-align: center !important;
-  position: relative;
-}
-
 /* New Animations */
 
 /* Basic performance optimization */
